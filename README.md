@@ -1,52 +1,42 @@
-# Hi, I'm Hossein Karimi 👋
+# Hossein Karimi
 
-[![Sharif University of Technology](https://img.shields.io/badge/Sharif%20University%20of%20Technology-Computer%20Engineering-blue?style=for-the-badge)](https://ce.sharif.edu/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Hosein1011-181717?style=for-the-badge&logo=github)](https://github.com/Hosein1011)
+Computer Engineering undergraduate at **Sharif University of Technology** (Tehran, Iran).  
+Focused on systems programming, information retrieval, and full-stack web applications.
 
-I am a **Systems-Oriented Computer Engineering Student** at **Sharif University of Technology (SUT)**, focusing on high-throughput full-stack architectures, low-level systems programming in C, and high-dimensional vector search engines.
-
----
-
-## 🏛️ What I Build
-
-- **⚡ Production B2B Platforms:** Co-lead full-stack systems engineer on **[STK Motors](https://github.com/Mahyarelect/stkmotor)**, an industrial electromechanical catalog and CMS platform indexing **863 technical variants** with Next.js 16, React 19, Prisma ORM, PostgreSQL, and Playwright E2E automation.
-- **⚙️ Low-Level Systems Programming:** Author of **[BabyGit](https://github.com/Hosein1011/BabyGit)**, a custom Git version control system built from scratch in 1,300 lines of pure C99 using direct POSIX filesystem APIs (`sys/stat`, `dirent`, `unistd`).
-- **🔍 Vector Search & Information Retrieval:** Architect of **[MIR3](https://github.com/Hosein1011/MIR3)** (hybrid multimodal search using FAISS & Reciprocal Rank Fusion) and **[MIR](https://github.com/Hosein1011/MIR)** (Goodreads IR engine with BM25 & LSH MinHash clustering).
-- **🤖 AI & Database Engineering:** Creator of **[Music Advisor](https://github.com/Hosein1011/Music-Advisor)**, a Java 21 recommendation engine synthesizing LLaMA 3.2 90B queries into 22-D acoustic vectors evaluated via PostgreSQL's **`pgvector`** extension.
-- **🛡️ Blockchain Security:** Author of **[BC-HW03](https://github.com/Hosein1011/BC-HW03)**, researching EVM exploit vectors, Vault reentrancy attacks, and NFT marketplace DoS pull-payment mitigations in Solidity & Hardhat.
-- **🎓 Technical Leadership:** Teaching Assistant & Student Project Manager at Sharif University for **Advanced Programming (AP)** and **Fundamentals of Programming (FOP)**, guiding 200+ students across software architecture, PRDs, and Git workflows.
+[GitHub](https://github.com/Hosein1011) &bull; [LinkedIn](https://linkedin.com) &bull; `your.email@sharif.edu`
 
 ---
 
-## 🛠️ Tech Stack & Tooling
+### Systems & Architecture
 
-```text
-Languages:       C (C99/POSIX) • C++ • Java (21 LTS) • Python (3.10+) • TypeScript • JavaScript • SQL • Solidity • Verilog
-Full-Stack:      Next.js 16/15 (App Router) • React 19/18 • Django REST Framework • Prisma ORM • Express.js • Tailwind CSS
-Databases & IR:  PostgreSQL (pgvector) • SQLite • FAISS • Okapi BM25 • TF-IDF • LSH MinHash • RRF • Redis
-Testing & QA:    Playwright (E2E) • Jest • Vitest • JUnit 4/5 • JaCoCo • PIT Mutation Testing • Cucumber (BDD)
-Infrastructure:  Docker & Docker Compose • Linux/Unix • Git Internals • POSIX APIs • Multi-Stage Builds • uv
-```
+- **STK Motors ([Mahyarelect/stkmotor](https://github.com/Mahyarelect/stkmotor))**: Co-lead architect on a commercial B2B electromechanical catalog indexing 863 technical variants across 30 product families. Built with Next.js 16 (App Router), React 19, Prisma ORM 6, PostgreSQL 16, and Playwright E2E automation. (43 core commits).
+- **BabyGit ([Hosein1011/BabyGit](https://github.com/Hosein1011/BabyGit))**: Git version control system implemented from scratch in pure C99 using direct POSIX filesystem APIs (`sys/stat`, `dirent`, `unistd`). Implements the staging index, parent-linked commit DAG, branch references (`HEAD`), status inspection, and history rollbacks.
+- **Melora / sptfy ([Hosein1011/sptfy](https://github.com/Hosein1011/sptfy))**: Decoupled cloud audio streaming platform pairing a Next.js 15 SSR frontend with a stateless Django REST Framework API and PostgreSQL 17. Features role-based access control (RBAC), database-level subscription quota enforcement, and Docker Compose orchestration.
+- **Gwent ([Hosein1011/Gwent](https://github.com/Hosein1011/Gwent))**: Standalone desktop implementation of The Witcher's card game built in Java 21 and JavaFX 19. Features FXML UI layouts, video background integration (`javafx-media`), complete rules engine across 5 factions and special card abilities, deck building, and profile persistence.
 
 ---
 
-## 🚀 Flagship Projects
+### Search & Vector Retrieval
 
-| Project | Tech Stack | Highlights |
-| :--- | :--- | :--- |
-| **[STK Motors](https://github.com/Mahyarelect/stkmotor)** | Next.js 16, React 19, Prisma, PostgreSQL, Playwright | Industrial catalog & CMS for 863 electromechanical products; co-lead architect with 43 core commits. |
-| **[Melora (sptfy)](https://github.com/Hosein1011/sptfy)** | Next.js 15, Django REST, PostgreSQL 17, Docker Compose | Decoupled cloud audio streaming platform with dynamic subscription metering and RBAC. |
-| **[BabyGit](https://github.com/Hosein1011/BabyGit)** | Pure C (C99), POSIX Filesystem APIs | Distributed Git VCS from scratch: directory-walking staging area, commit DAG, branch switching, rollback. |
-| **[MIR3](https://github.com/Hosein1011/MIR3)** | Python, PyTorch, FAISS CPU, RRF, `uv` | Hybrid multimodal e-commerce search engine fusing sparse lexical BM25 with dense neural embeddings. |
-| **[Goodreads IR (MIR)](https://github.com/Hosein1011/MIR)** | Python, Streamlit, BM25, TF-IDF, LSH | Positional inverted index, MinHash duplicate clustering, spell correction, and Streamlit UI. |
-| **[Music Advisor](https://github.com/Hosein1011/Music-Advisor)** | Java 21, PostgreSQL `pgvector`, LLaMA 3.2 90B, Docker | LLM natural language query synthesis evaluated against 22-D acoustic vectors in PostgreSQL. |
-| **[DeFi Security Lab](https://github.com/Hosein1011/BC-HW03)** | Solidity, Hardhat, TypeScript | Security audit lab: Vault reentrancy exploits and NFT marketplace DoS pull-payment remediation. |
+- **MIR3 ([Hosein1011/MIR3](https://github.com/Hosein1011/MIR3))**: Hybrid multimodal product search engine combining sparse lexical signals (BM25) with dense neural embeddings using PyTorch and FAISS CPU. Employs Reciprocal Rank Fusion (RRF) and cross-encoder neural reranking. Packaged with `uv`.
+- **Goodreads IR ([Hosein1011/MIR](https://github.com/Hosein1011/MIR))**: Information retrieval engine with custom positional inverted indexes, Okapi BM25 scoring, TF-IDF vector space modeling, MinHash Locality-Sensitive Hashing (LSH) for duplicate detection, and a Streamlit UI.
+- **Music Advisor ([Hosein1011/Music-Advisor](https://github.com/Hosein1011/Music-Advisor))**: Java 21 recommendation service integrating Meta LLaMA 3.2 90B query synthesis with PostgreSQL's `pgvector` extension for 22-dimensional acoustic vector similarity search via JDBC.
+- **DeFi Security Lab ([Hosein1011/BC-HW03](https://github.com/Hosein1011/BC-HW03))**: Smart contract security audit suite in Solidity and Hardhat analyzing Vault reentrancy exploits and NFT marketplace Denial of Service vulnerabilities with pull-payment fixes.
 
 ---
 
-## 📫 Connect With Me
-- 📍 **Location:** Tehran, Iran
-- 🎓 **University:** [Sharif University of Technology (SUT)](https://sharif.edu/)
-- 💻 **GitHub:** [@Hosein1011](https://github.com/Hosein1011)
-- 💼 **LinkedIn:** [Connect on LinkedIn](https://linkedin.com)
+### Academic & Technical Leadership
+
+- **Teaching Assistant & Student Project Manager** &mdash; *Advanced Programming (AP), Sharif University of Technology (Fall 2025)*  
+  Managed technical scoping, architectural constraints, and deliverables for three enterprise platforms (Event Management, CRM, Co-working Space) across 150+ students.
+- **Teaching Assistant & Product Scope Designer** &mdash; *Fundamentals of Programming (FOP), Sharif University of Technology (Spring 2026)*  
+  Authored product specifications, UX interaction flows, and grading test suites for the university educational portal clone (**EDU**).
+
+---
+
+### Tech Stack
+
+- **Languages:** C (C99), C++, Java (21 LTS), Python, TypeScript, JavaScript, SQL, Solidity, Verilog HDL, Bash
+- **Web & Backend:** Next.js 16/15, React 19/18, Django REST Framework, Prisma ORM 6, Express.js, Flask
+- **Databases & IR:** PostgreSQL (`pgvector`), SQLite, FAISS, BM25, TF-IDF, LSH MinHash, RRF
+- **DevOps & Testing:** Docker, Docker Compose, Playwright (E2E), Jest, Vitest, JUnit 4/5, JaCoCo, PIT Mutation Testing
