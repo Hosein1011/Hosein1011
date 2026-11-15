@@ -1,8 +1,8 @@
 # Hi, I'm Hossein Karimi 👋
 
 [![Sharif University of Technology](https://img.shields.io/badge/Sharif%20University%20of%20Technology-Computer%20Engineering-blue?style=for-the-badge)](https://ce.sharif.edu/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com)
 [![GitHub](https://img.shields.io/badge/GitHub-Hosein1011-181717?style=for-the-badge&logo=github)](https://github.com/Hosein1011)
+[![Email](https://img.shields.io/badge/Email-hosein.ssx%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hosein.ssx@gmail.com)
 
 Computer Engineering student at **Sharif University of Technology (SUT)**, focusing on systems programming, information retrieval/search infrastructure, and full-stack web applications.
 
@@ -52,3 +52,4 @@ Infrastructure:  Docker & Docker Compose • Linux/POSIX APIs • Git
 - 📍 **Location:** Tehran, Iran
 - 🎓 **University:** Sharif University of Technology (SUT)
 - 💻 **GitHub:** [@Hosein1011](https://github.com/Hosein1011)
+- ✉️ **Email:** [hosein.ssx@gmail.com](mailto:hosein.ssx@gmail.com)
