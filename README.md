@@ -4,13 +4,14 @@
 [![GitHub](https://img.shields.io/badge/GitHub-Hosein1011-181717?style=for-the-badge&logo=github)](https://github.com/Hosein1011)
 [![Email](https://img.shields.io/badge/Email-hosein.ssx%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hosein.ssx@gmail.com)
 
-Computer Engineering student at **Sharif University of Technology (SUT)**, focusing on systems programming, information retrieval/search infrastructure, and full-stack web applications.
+Computer Engineering student at **Sharif University of Technology (SUT)**, focusing on systems programming, data observability & SRE, information retrieval, and full-stack web applications.
 
 ---
 
 ## 🏛️ What I Build
 
 - **Production B2B Systems:** Core full-stack engineer on **[STKO Motors](https://stkomotors.com/)** ([GitHub](https://github.com/Mahyarelect/stkmotor)), an industrial electromechanical catalog and management platform indexing 863 technical variants using Next.js 16, React 19, Prisma ORM, PostgreSQL, and Playwright E2E automation.
+- **Product Management & SRE:** Author of **[sahab-apm-case-study](https://github.com/Hosein1011/sahab-apm-case-study)**, an Associate Product Manager evaluation case study for **[Sahab](https://www.sahab.ir/)** designing data freshness signals, SLIs/SLOs, error budgets, and multi-team alert triage matrices for large-scale data platforms.
 - **Low-Level Systems:** Author of **[BabyGit](https://github.com/Hosein1011/BabyGit)**, a custom Git version control system built in C99 using direct POSIX filesystem APIs (`sys/stat`, `dirent`, `unistd`).
 - **Game Engine & Desktop Apps:** Author of **[Gwent](https://github.com/Hosein1011/Gwent)**, an MVC desktop card game engine built in Java 21 and OpenJFX (JavaFX 19) featuring 5 factions, special card abilities, and video playback.
 - **Search Infrastructure & IR:** Architect of **[multimodal-hybrid-search](https://github.com/Hosein1011/multimodal-hybrid-search)** (hybrid product search combining BM25, FAISS, and Reciprocal Rank Fusion) and **[goodreads-ir-engine](https://github.com/Hosein1011/goodreads-ir-engine)** (Goodreads book search with BM25, TF-IDF, and MinHash LSH).
@@ -26,6 +27,7 @@ Languages:       C (C99/POSIX) • C++ • Java (21) • Python • TypeScript �
 Web & Backend:   Next.js • React • Django REST Framework • Prisma ORM • Express.js • JavaFX • Tailwind CSS
 Databases & IR:  PostgreSQL (pgvector) • SQLite • FAISS • Okapi BM25 • TF-IDF • LSH MinHash • RRF
 Testing & QA:    Playwright • Jest • JUnit 4/5 • JaCoCo • PIT Mutation Testing • Cucumber (BDD)
+Methodologies:   Product Discovery • Data Observability • SRE (SLI/SLO) • Agile/Scrum • PRDs
 Infrastructure:  Docker & Docker Compose • Linux/POSIX APIs • Git
 ```
 
@@ -36,6 +38,7 @@ Infrastructure:  Docker & Docker Compose • Linux/POSIX APIs • Git
 | Project | Tech Stack | Highlights |
 | :--- | :--- | :--- |
 | **[STKO Motors](https://stkomotors.com/)** ([Code](https://github.com/Mahyarelect/stkmotor)) | Next.js, React, Prisma, PostgreSQL, Playwright | Industrial catalog and CMS indexing 863 technical variants across 30 families. |
+| **[Sahab APM Case Study](https://github.com/Hosein1011/sahab-apm-case-study)** | Product Management, SRE, Data Quality, SLIs/SLOs | Data observability & freshness signal proposal for multi-team data tables at Sahab. |
 | **[Melora (sptfy)](https://github.com/Hosein1011/sptfy)** | Next.js, Django REST, PostgreSQL, Docker Compose | Full-stack audio streaming application with JWT authentication, RBAC, and containerized deployment. |
 | **[BabyGit](https://github.com/Hosein1011/BabyGit)** | C (C99), POSIX APIs | Version control system from scratch: staging area, commit history DAG, and branch tracking. |
 | **[Gwent Card Engine](https://github.com/Hosein1011/Gwent)** | Java 21, OpenJFX (JavaFX), FXML | Desktop card game with 5 factions, coordinate-based canvas, video playback, and rules engine. |
